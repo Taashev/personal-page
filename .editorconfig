@@ -1,0 +1,25 @@
+# http://editorconfig.org
+
+# корневой файл EditorConfig
+root = true
+
+
+# для всех файлов
+[*]
+# используем табы рамером 2 символа
+indent_style = tab
+tab_width = 2
+indent_size = 2
+# unix-совместимые переносы строк
+end_of_line = lf
+trim_trailing_whitespace = true
+# кодировака файлов utf-8
+charset = utf-8
+# добовляет последнюю строку
+insert_final_newline = true
+
+
+# все файлы с рашрирение .md
+[*.md]
+# оставляем пробельные символы
+trim_trailing_whitespace =  false
