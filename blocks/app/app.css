@@ -362,7 +362,9 @@ body {
 
 
 /* main */
-.main {}
+.main {
+	flex-grow: 1;
+}
 .main__nav {
 	margin-top: 75px;
 }
@@ -475,11 +477,10 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	position: relative;
-	right: -100%;
+	right: -110%;
 	transition: .4s;
 }
 .project__text {
-	height: 60px;
 	margin: 0 auto;
 	font-size: 14px;
 	font-weight: 400;
@@ -491,7 +492,7 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 	position: relative;
-	left: -120%;
+	left: -110%;
 	transition: .4s;
 }
 .prject__link {
@@ -519,6 +520,12 @@ body {
 	.project__item {
 		height: 29vw;
 	}
+	.project__info {
+		padding:
+			calc(10px + (75 + 75 * .7) * ((100vw - 640px) / 800))
+			calc(15px + (45 + 45 * .7) * ((100vw - 640px) / 800))
+			calc(15px + (75 + 75 * .7) * ((100vw - 640px) / 800));
+	}
 }
 @media(max-width: 640px) {
 	.project {
@@ -531,6 +538,12 @@ body {
 		max-width: 340px;
 		height: 210px;
 	}
+	.project__info {
+		padding:
+			calc(10px + (5 + 5 * 1) * ((100vw - 320px) / 640))
+			calc(15px + (5 + 5 * 1) * ((100vw - 320px) / 640))
+			calc(15px + (5 + 5 * 1) * ((100vw - 320px) / 640));
+	}
 }
 @media(max-width: 376px) {
 	.project {
@@ -540,5 +553,21 @@ body {
 	.project__item {
 		width: calc(286px + (216 + 216 * .7) * ((100vw - 320px) / 376));
 		height: calc(180px + (120 + 120 * .7) * ((100vw - 320px) / 376));
+	}
+}
+
+
+
+/* footer */
+.footer {
+	margin-top: 78px;
+}
+.footer__cop {
+	text-align: center;
+	line-height: 1.5;
+}
+@media(max-width: 640px) {
+	.footer__cop {
+		font-size: calc(12px + (12 + 12 * .7) * ((100vw - 320px) / 640));
 	}
 }
