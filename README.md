@@ -2,7 +2,7 @@
 
 ---
 
-[GitHub Pages](https://github.com/Taashev/personal-page)
+[GitHub Pages](https://taashev.github.io/personal-page/)
 
 В проекте использовались следующие технологии: \
 `HTML 5` \
