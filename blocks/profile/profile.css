@@ -78,16 +78,11 @@
 	color: #3D3D3D;
 }
 @media(max-width: 800px) {
-	.profile__photo-wrapper {
-		width: 27vw;
-		height: auto;
-		margin-right: 5vw;
-	}
 	.profile__name {
-		font-size: calc(16px + (30 + 30 * 0.7) * ((100vw - 320px) / 800));
+		font-size: calc(18px + (28 + 28 * 0.7) * ((100vw - 320px) / 800));
 	}
 	.profile__profession {
-		font-size: calc(10px + (12 + 12 * 0.7) * ((100vw - 320px) / 800));
+		font-size: calc(12px + (10 + 10 * 0.7) * ((100vw - 320px) / 800));
 	}
 	.profile__experience-item {
 		font-size: calc(14px + (8 + 8 * .7) * ((100vw - 320px) / 800));
