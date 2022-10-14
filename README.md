@@ -12,7 +12,7 @@
 `Flex-box` \
 `Grid layout` \
 `Позиционирование` \
-`JavaScript` \
+`JavaScript`
 
 ### JS:
 * Открытие\закрытие попап
