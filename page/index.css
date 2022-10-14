@@ -4,5 +4,45 @@
 /* fonts */
 @import url(../vendor/fonts/poppins/poppins.css);
 
+/* components */
+/* buttons */
+@import url(../blocks/buttons/buttons.css);
+/* theme */
+@import url(../blocks/theme/theme.css);
+
+
 /* app */
 @import url(../blocks/app/app.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+
+/* profile */
+@import url(../blocks/profile/profile.css);
+
+/* social */
+@import url(../blocks/social/social.css);
+
+/* main */
+@import url(../blocks/main/main.css);
+
+/* nav */
+@import url(../blocks/nav/nav.css);
+
+/* project */
+@import url(../blocks/project/project.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+
+/* contact */
+@import url(../blocks/contact/contact.css);
+
+/* popup */
+@import url(../blocks/popup/popup.css);
+
+/* notification */
+@import url(../blocks/notification/notification.css);

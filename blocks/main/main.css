@@ -1,0 +1,13 @@
+.main {
+	flex-grow: 1;
+}
+.main__nav {
+	margin: 75px 0;
+}
+@media(max-width: 640px) {
+	.main__nav {
+		gap: 14px;
+		max-width: 440px;
+		margin: 58px auto 40px;
+	}
+}

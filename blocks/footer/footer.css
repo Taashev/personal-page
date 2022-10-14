@@ -1,0 +1,12 @@
+.footer {
+	margin-top: 78px;
+}
+.footer__cop {
+	margin: 0;
+	text-align: center;
+}
+@media(max-width: 640px) {
+	.footer__cop {
+		font-size: calc(12px + (12 + 12 * .7) * ((100vw - 320px) / 640));
+	}
+}

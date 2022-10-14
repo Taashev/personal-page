@@ -1,0 +1,24 @@
+.nav {
+	gap: 5px;
+	padding: 18px 23px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: var(--color-set-one);
+}
+.nav__item {
+}
+.nav__item:hover {
+	color: var(--color-set-three);
+}
+.nav__item_active {
+	background: var(--color-set-two);
+}
+.nav__item.nav__item_active:hover {
+	color: var(--color-text);
+}
+@media(max-width: 640px) {
+	.nav{
+		padding: calc(7px + (11 + 11 * .7) * ((100vw - 320px) / 640));
+		border-radius: 10px;
+	}
+}

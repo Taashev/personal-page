@@ -1,0 +1,42 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	margin: 0 0 30px;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
+}
+.contact__item {
+	display: flex;
+	align-items: end;
+	gap: 10px;
+	width: 100%;
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: var(--color-set-two);
+}
+.contact__name {
+	text-align: center;
+	font-size: 16px;
+}
+.contact__value {
+	transition: .3s;
+}
+.contact__item:hover .contact__value {
+	color: var(--color-set-three);
+}
+@media(max-width: 640px) {
+	.contact__item {
+		padding: 15px;
+	}
+}
+@media(max-width: 376px) {
+	.contact__item {
+		flex-direction: column;
+		align-items: start;
+		gap: 5px;
+		padding: 10px 15px;
+	}
+}
